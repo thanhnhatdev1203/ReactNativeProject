@@ -28,7 +28,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 class App extends Component {
   state = {
-    counter: 2,
+    counter: 1,
   }
   componentWillMount(){
     console.log(`${Date.now()}. This is componentWillMount`);
@@ -66,14 +66,14 @@ componentDidUpdate(){
     );
   }
   OnImcrement = () => {
-    if(this.state.counter < 10){
+    if(this.state.counter < 9){
     this.setState({
         counter: this.state.counter + 1
     })
   } 
   };
   OnReduction = () => {
-    if(this.state.counter > 0){
+    if(this.state.counter > 1){
     this.setState({
       counter: this.state.counter - 1,
     })
