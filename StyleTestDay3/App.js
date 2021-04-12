@@ -7,7 +7,6 @@
  */
 
 import React, { Component } from 'react';
-import type {Node} from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -17,6 +16,7 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
+
 
 import {
   Colors,

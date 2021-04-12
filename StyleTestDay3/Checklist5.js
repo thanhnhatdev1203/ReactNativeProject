@@ -11,6 +11,7 @@
  import React, { Component } from 'react';
  import type { Node } from 'react';
  import {
+     Button,
      SafeAreaView,
      ScrollView,
      StatusBar,
@@ -38,6 +39,7 @@
                  justifyContent: 'center', // flex-end, center,space-between,space-aroud
                  alignContent: 'center',
                  marginTop: 50,
+                 backgroundColor : 'lightgray',
              }}>
                  <View style={{width: 300, height: 300, backgroundColor: 'green', alignSelf: 'center' }}>
                  <View style={{width: 200, height: 200, backgroundColor: 'blue', alignSelf: 'center', margin : 50 }}>
@@ -46,8 +48,8 @@
                     </View>
                      </View>
                      </View>
+                     <Button title = 'CLICK' style = {styles.highlight}></Button>
                  </View>
-                 
           </View>
  
          );
