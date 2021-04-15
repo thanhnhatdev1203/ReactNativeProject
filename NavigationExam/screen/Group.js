@@ -22,11 +22,11 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const Home = ({navigation}) => {
+const Group = ({navigation}) => {
   return (
     <View style={styles.sectionContainer}>
       <View style={(flex = 1)}>
-        <Text style={styles.sectionTitle}>Facebook</Text>
+        <Text style={styles.sectionTitle}>GROUP</Text>
       </View>
       <View></View>
     </View>
@@ -56,4 +56,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Home;
+export default Group;
