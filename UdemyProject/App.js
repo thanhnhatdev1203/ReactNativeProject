@@ -27,6 +27,22 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+function getRandomColor() {
+  const COLOR_LIST = ['blue', 'red', 'black', 'gray', 'pink', 'green'];
+  const randomIndex = Math.trunc(Math.random() * 6);
+  return COLOR_LIST[randomIndex];
+}
+function ColorBox() {
+  const [color, setColor] = useState('pink');
+  function onChange() {
+    const newColor = getRandomColor();
+    setColor(newColor);
+  }
+  return (
+    <View
+      style={{backgroundColor: {newColor}, marginTop: 100, height: 100}}></View>
+  );
+}
 
 function Clock() {
   const [timeString, setTimeString] = useState(null);
@@ -41,10 +57,6 @@ function Clock() {
       const currentTimeString = `${hours}:${minutes}:${seconds}`;
       setTimeString(currentTimeString);
     }, 1000);
-    return () => {
-      // tuong duong componentwillunmount
-      clearInterval(intervalRef.current);
-    };
   });
 
   return <Text style={styles.sectionContainer}>{timeString}</Text>;
@@ -91,6 +103,19 @@ function TextInputWithFocusButton() {
       <TextInput style={{backgroundColor: 'red', paddingVertical: 10}} />
 
       <Button onPress={onButtonClick} title="click me" />
+    </View>
+  );
+}
+function Count() {
+  const [value, setValue] = useState('');
+  const [count, setCount] = useState(0);
+  useEffect(() => setCount(count + 1));
+  const onChange1 = ({target}) => setValue(target.value);
+  console.log('a', count);
+  return (
+    <View style={styles.sectionContainer}>
+      <TextInput value={value} onChange={onChange1} />
+      <Text> Number of change : {count} </Text>
     </View>
   );
 }
@@ -142,4 +167,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Clock;
+export default ColorBox;
