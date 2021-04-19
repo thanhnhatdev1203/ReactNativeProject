@@ -1,9 +1,6 @@
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import React from 'react';
 import HomeStack from '../stack/homeStack';
-import FriendStack from '../stack/FriendStack';
-import MarketStack from '../stack/MarketplaceStack';
-import NotificationStack from '../stack/NotificationStack';
 import WatchStack from '../stack/WatchStack';
 import {
   Button,
@@ -32,6 +29,7 @@ const Tabs = () => {
           elevation: 0,
           height: 80,
           ...styles.shadow,
+          backgroundColor: '#DBF1FD',
         },
       }}>
       <Tab.Screen
@@ -42,60 +40,6 @@ const Tabs = () => {
             <View style={styles.iconview}>
               <Image
                 source={require('../icon/home.png')}
-                resizeMode="contain"
-                style={[
-                  styles.icon,
-                  {tintColor: focused ? '#e32f45' : '#748c94'},
-                ]}
-              />
-            </View>
-          ),
-        }}
-      />
-      <Tab.Screen
-        name="Friend"
-        component={FriendStack}
-        options={{
-          tabBarIcon: ({focused}) => (
-            <View style={styles.iconview}>
-              <Image
-                source={require('../icon/friend.png')}
-                resizeMode="contain"
-                style={[
-                  styles.icon,
-                  {tintColor: focused ? '#e32f45' : '#748c94'},
-                ]}
-              />
-            </View>
-          ),
-        }}
-      />
-      <Tab.Screen
-        name="Marketplace"
-        component={MarketStack}
-        options={{
-          tabBarIcon: ({focused}) => (
-            <View style={styles.iconview}>
-              <Image
-                source={require('../icon/market.png')}
-                resizeMode="contain"
-                style={[
-                  styles.icon,
-                  {tintColor: focused ? '#e32f45' : '#748c94'},
-                ]}
-              />
-            </View>
-          ),
-        }}
-      />
-      <Tab.Screen
-        name="Notification"
-        component={NotificationStack}
-        options={{
-          tabBarIcon: ({focused}) => (
-            <View style={styles.iconview}>
-              <Image
-                source={require('../icon/noti.png')}
                 resizeMode="contain"
                 style={[
                   styles.icon,

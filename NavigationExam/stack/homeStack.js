@@ -6,21 +6,26 @@ import {
 import {createStackNavigator} from '@react-navigation/stack';
 import {View, Text} from 'react-native';
 import React from 'react';
-import HomeScreen from '../screen/HomeScreen';
-import Profile from '../screen/Profile';
-import Page from '../screen/Page';
-import Group from '../screen/Group';
-import Game from '../screen/Game';
+import Home from '../screen/HomeScreen';
 
-const Drawer = createDrawerNavigator();
+const Stack = createStackNavigator();
 const HomeStack = () => {
   return (
-    <Drawer.Navigator>
-      <Drawer.Screen name="Profile" component={Profile} />
-      <Drawer.Screen name="Page" component={Page} />
-      <Drawer.Screen name="Group" component={Group} />
-      <Drawer.Screen name="Game" component={Game} />
-    </Drawer.Navigator>
+    <Stack.Navigator
+      screenOptions={{
+        headerShown: false,
+      }}>
+      <Stack.Screen
+        name="Home"
+        component={Home}
+        options={{
+          title: '',
+          headerStyle: {
+            backgroundColor: 'darkolivegreen',
+          },
+        }}
+      />
+    </Stack.Navigator>
   );
 };
 

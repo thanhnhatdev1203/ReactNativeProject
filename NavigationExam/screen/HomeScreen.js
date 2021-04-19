@@ -1,5 +1,5 @@
 import 'react-native-gesture-handler';
-import React from 'react';
+import React, {useState} from 'react';
 import {createStackNavigator} from 'react-navigation-stack';
 import {
   Button,
@@ -21,23 +21,37 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import DeviceManagement from './DeviceManagement';
+import HeaderMain from './HeaderMain';
 
-const Home = ({navigation}) => {
+const HomeScreen = () => {
+  const [deviceList, setDevices] = useState([
+    {id: 1, title: 'Màn hình', location: 'Phòng khách'},
+    {id: 2, title: 'Bóng đèn', location: 'Nhà vệ sinh'},
+    {id: 3, title: 'Laptop', location: 'Phòng thờ'},
+    {id: 4, title: 'Bàn', location: 'Phòng ăn'},
+    {id: 5, title: 'Ghế', location: 'Phòng làm việc'},
+  ]);
+  function handleItemsClick() {}
   return (
-    <View style={styles.sectionContainer}>
-      <View style={(flex = 1)}>
-        <Text style={styles.sectionTitle}>Facebook</Text>
+    <View style={{backgroundColor: '#6CC1FE', flex: 1}}>
+      <HeaderMain />
+      <View style={styles.sectionContainer}>
+        <DeviceManagement devices={deviceList} />
       </View>
-      <View></View>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   sectionContainer: {
-    flex: 9,
-    backgroundColor: 'darkslategrey',
-    paddingHorizontal: 10,
+    flex: 5,
+    borderRadius: 25,
+    backgroundColor: '#A9E0FF',
+    paddingHorizontal: 20,
+    marginTop: 200,
+    width: 300,
+    marginLeft: 45,
   },
 
   sectionTitle: {
@@ -56,4 +70,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Home;
+export default HomeScreen;

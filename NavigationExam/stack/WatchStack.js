@@ -10,7 +10,7 @@ const WatchStack = () => {
   return (
     <Stack.Navigator
       screenOptions={{
-        screenOptions: 'fade',
+        headerShown: false,
       }}>
       <Stack.Screen
         name="WATCH"
