@@ -1,8 +1,6 @@
 import {ADD_FOOD, DELETE_FOOD} from '../action/types';
-import FoodList from '../src/foodList';
-
 const initialState = {
-  FoodList: [],
+  foodList: [],
 };
 const foodReducer = (state = initialState, action) => {
   switch (action.type) {
@@ -14,11 +12,15 @@ const foodReducer = (state = initialState, action) => {
           name: action.data,
         }),
       };
+
     case DELETE_FOOD:
       return {
         ...state,
         foodList: state.foodList.filter(item => item.key !== action.key),
       };
+    default:
+      return state;
   }
 };
+
 export default foodReducer;

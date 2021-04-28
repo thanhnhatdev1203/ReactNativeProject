@@ -1,48 +1,49 @@
-import React, {Component} from 'react';
-import {StyleSheet, FlatList, View, Text, TouchableOpacity} from 'react-native';
+import React from 'react';
+import {StyleSheet, View, Text, FlatList, TouchableOpacity} from 'react-native';
 import {ListItem, Icon} from 'react-native-elements';
+import {useDispatch, useSelector} from 'react-redux';
+import {deleteFood} from '../action/food';
 
-class FoodList extends Component {
-  static navigationOption = {
-    title: 'Food List',
-    headerTintColor: 'white',
-    headerStyle: {
-      backgroundColor: 'green',
-    },
-  };
-  render() {
-    const FData = this.props?.route?.params?.foodList || [];
-    const onPressDelete = this.props?.route?.params?.deleteFood || [];
-    return (
-      <View>
-        <TouchableOpacity onPress={onPressDelete}>
-          <Text>OK</Text>
-        </TouchableOpacity>
-        <FlatList
-          style={styles.listContainer}
-          data={FData}
-          keyExtractor={(item, index) => item.key.toString()}
-          renderItem={({item = {}}) => (
-            <RenderItem name={item.name} props={onPressDelete} />
-          )}
-        />
-      </View>
-    );
-  }
-}
-const RenderItem = ({name, props}) => {
+const FoodList = () => {
+  const dispatch = useDispatch();
+  const deleteCurrent = key => dispatch(deleteFood(key));
+  const foods = useSelector(state => state.foodReducer.foodList);
+  console.log('fooooddddd', foods);
   return (
-    <View style={{margin: 1}}>
-      <TouchableOpacity onPress={props}>
-        <Text style={{fontSize: 20, textAlign: 'center'}}>{name}</Text>
-      </TouchableOpacity>
-    </View>
+    <FlatList
+      style={styles.listContainer}
+      data={foods}
+      keyExtractor={(item, index) => item.key.toString()}
+      renderItem={renderItem}
+    />
   );
 };
-export default FoodList;
+const Item = ({item, onPress, textColor}) => (
+  <TouchableOpacity onPress={onPress}>
+    <Text style={[styles.title, textColor]}>{item.name}</Text>
+    <Icon
+      name="delete"
+      size={36}
+      onPress={() => deleteCurrent(data.item.key)}
+    />
+  </TouchableOpacity>
+);
+const renderItem = ({item}) => {
+  return <Item item={item} />;
+};
 const styles = StyleSheet.create({
   listContainer: {
-    backgroundColor: 'white',
+    backgroundColor: '#212121',
     padding: 16,
   },
+  listText: {
+    fontSize: 30,
+  },
+  title: {
+    color: 'white',
+    fontSize: 24,
+    textAlign: 'left',
+    marginLeft: 15,
+  },
 });
+export default FoodList;

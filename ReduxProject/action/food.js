@@ -6,5 +6,5 @@ export const addFood = food => ({
 });
 export const deleteFood = key => ({
   type: DELETE_FOOD,
-  data: food,
+  data: key,
 });
