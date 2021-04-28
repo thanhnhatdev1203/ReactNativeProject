@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* ReduxProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReduxProjectTests.m */; };
-		134D26125FC0F356DB0D5327 /* libPods-ReduxProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFD2B999681901E47652D98 /* libPods-ReduxProject.a */; };
+		00E356F31AD99517003FC87E /* reduxprojectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reduxprojectTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1F707BDFF5145C463AEC9437 /* libPods-ReduxProject-ReduxProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 782AD5D04C4A6132BDF961D4 /* libPods-ReduxProject-ReduxProjectTests.a */; };
+		4026C0B3DFD5A56313615CED /* libPods-reduxproject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BFB81383089D050C702CE3 /* libPods-reduxproject.a */; };
+		420F7C3B84E4D090EE8117EE /* libPods-reduxproject-reduxprojectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E883C52E9D522B8CFD3D1FF3 /* libPods-reduxproject-reduxprojectTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -22,28 +22,28 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = ReduxProject;
+			remoteInfo = reduxproject;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* ReduxProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReduxProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* reduxprojectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reduxprojectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ReduxProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReduxProjectTests.m; sourceTree = "<group>"; };
-		051E8561AC7FF72EE2D2F4CE /* Pods-ReduxProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxProject.debug.xcconfig"; path = "Target Support Files/Pods-ReduxProject/Pods-ReduxProject.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* ReduxProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReduxProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReduxProject/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ReduxProject/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReduxProject/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReduxProject/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReduxProject/main.m; sourceTree = "<group>"; };
-		34BF7723A05A5BE5857A9D08 /* Pods-ReduxProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxProject.release.xcconfig"; path = "Target Support Files/Pods-ReduxProject/Pods-ReduxProject.release.xcconfig"; sourceTree = "<group>"; };
-		6DB9236D5C1F8722B48D3837 /* Pods-ReduxProject-ReduxProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxProject-ReduxProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-ReduxProject-ReduxProjectTests/Pods-ReduxProject-ReduxProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
-		782AD5D04C4A6132BDF961D4 /* libPods-ReduxProject-ReduxProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReduxProject-ReduxProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReduxProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9EFD2B999681901E47652D98 /* libPods-ReduxProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReduxProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D82630D5740E0E777E0371C5 /* Pods-ReduxProject-ReduxProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxProject-ReduxProjectTests.release.xcconfig"; path = "Target Support Files/Pods-ReduxProject-ReduxProjectTests/Pods-ReduxProject-ReduxProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* reduxprojectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reduxprojectTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* reduxproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reduxproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = reduxproject/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = reduxproject/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = reduxproject/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reduxproject/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reduxproject/main.m; sourceTree = "<group>"; };
+		6AB0B449F20815063DEB1B7A /* Pods-reduxproject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reduxproject.release.xcconfig"; path = "Target Support Files/Pods-reduxproject/Pods-reduxproject.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = reduxproject/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E8A663D81367B0C113169E0 /* Pods-reduxproject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reduxproject.debug.xcconfig"; path = "Target Support Files/Pods-reduxproject/Pods-reduxproject.debug.xcconfig"; sourceTree = "<group>"; };
+		AFF9407BDD087C0072690338 /* Pods-reduxproject-reduxprojectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reduxproject-reduxprojectTests.release.xcconfig"; path = "Target Support Files/Pods-reduxproject-reduxprojectTests/Pods-reduxproject-reduxprojectTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1F822C60A6B39AAA990FF72 /* Pods-reduxproject-reduxprojectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reduxproject-reduxprojectTests.debug.xcconfig"; path = "Target Support Files/Pods-reduxproject-reduxprojectTests/Pods-reduxproject-reduxprojectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E883C52E9D522B8CFD3D1FF3 /* libPods-reduxproject-reduxprojectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reduxproject-reduxprojectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F7BFB81383089D050C702CE3 /* libPods-reduxproject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reduxproject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F707BDFF5145C463AEC9437 /* libPods-ReduxProject-ReduxProjectTests.a in Frameworks */,
+				420F7C3B84E4D090EE8117EE /* libPods-reduxproject-reduxprojectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				134D26125FC0F356DB0D5327 /* libPods-ReduxProject.a in Frameworks */,
+				4026C0B3DFD5A56313615CED /* libPods-reduxproject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* ReduxProjectTests */ = {
+		00E356EF1AD99517003FC87E /* reduxprojectTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ReduxProjectTests.m */,
+				00E356F21AD99517003FC87E /* reduxprojectTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ReduxProjectTests;
+			path = reduxprojectTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* ReduxProject */ = {
+		13B07FAE1A68108700A75B9A /* reduxproject */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,17 +93,29 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = ReduxProject;
+			name = reduxproject;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				9EFD2B999681901E47652D98 /* libPods-ReduxProject.a */,
-				782AD5D04C4A6132BDF961D4 /* libPods-ReduxProject-ReduxProjectTests.a */,
+				F7BFB81383089D050C702CE3 /* libPods-reduxproject.a */,
+				E883C52E9D522B8CFD3D1FF3 /* libPods-reduxproject-reduxprojectTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62CC09800DA1991247B1E073 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E8A663D81367B0C113169E0 /* Pods-reduxproject.debug.xcconfig */,
+				6AB0B449F20815063DEB1B7A /* Pods-reduxproject.release.xcconfig */,
+				D1F822C60A6B39AAA990FF72 /* Pods-reduxproject-reduxprojectTests.debug.xcconfig */,
+				AFF9407BDD087C0072690338 /* Pods-reduxproject-reduxprojectTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -116,12 +128,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* ReduxProject */,
+				13B07FAE1A68108700A75B9A /* reduxproject */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ReduxProjectTests */,
+				00E356EF1AD99517003FC87E /* reduxprojectTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				D36228FD4A74F63956221D20 /* Pods */,
+				62CC09800DA1991247B1E073 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -131,68 +143,56 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* ReduxProject.app */,
-				00E356EE1AD99517003FC87E /* ReduxProjectTests.xctest */,
+				13B07F961A680F5B00A75B9A /* reduxproject.app */,
+				00E356EE1AD99517003FC87E /* reduxprojectTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D36228FD4A74F63956221D20 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				051E8561AC7FF72EE2D2F4CE /* Pods-ReduxProject.debug.xcconfig */,
-				34BF7723A05A5BE5857A9D08 /* Pods-ReduxProject.release.xcconfig */,
-				6DB9236D5C1F8722B48D3837 /* Pods-ReduxProject-ReduxProjectTests.debug.xcconfig */,
-				D82630D5740E0E777E0371C5 /* Pods-ReduxProject-ReduxProjectTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ReduxProjectTests */ = {
+		00E356ED1AD99517003FC87E /* reduxprojectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReduxProjectTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reduxprojectTests" */;
 			buildPhases = (
-				20A9FD2F2E78B2819E05A126 /* [CP] Check Pods Manifest.lock */,
+				956F99C6D1D8A61EEAC0F539 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				1A00E497CC6BCD7214344FF3 /* [CP] Embed Pods Frameworks */,
-				E4C8E5E050F81DB90E76DA9B /* [CP] Copy Pods Resources */,
+				1CBCC68858AA7747EF25F257 /* [CP] Embed Pods Frameworks */,
+				BF802F84873E9465EFEF81B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ReduxProjectTests;
-			productName = ReduxProjectTests;
-			productReference = 00E356EE1AD99517003FC87E /* ReduxProjectTests.xctest */;
+			name = reduxprojectTests;
+			productName = reduxprojectTests;
+			productReference = 00E356EE1AD99517003FC87E /* reduxprojectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* ReduxProject */ = {
+		13B07F861A680F5B00A75B9A /* reduxproject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReduxProject" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reduxproject" */;
 			buildPhases = (
-				7368728443A950167D757334 /* [CP] Check Pods Manifest.lock */,
+				4F7EA6DD796350417EF1FCBF /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				ECC5992B2D153EB4179FEF1E /* [CP] Embed Pods Frameworks */,
-				D51C7C54BEF14CB44F9220EC /* [CP] Copy Pods Resources */,
+				50E07B0986919655478F70BD /* [CP] Embed Pods Frameworks */,
+				8748355B6A01459C17D750D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ReduxProject;
-			productName = ReduxProject;
-			productReference = 13B07F961A680F5B00A75B9A /* ReduxProject.app */;
+			name = reduxproject;
+			productName = reduxproject;
+			productReference = 13B07F961A680F5B00A75B9A /* reduxproject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReduxProject" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reduxproject" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* ReduxProject */,
-				00E356ED1AD99517003FC87E /* ReduxProjectTests */,
+				13B07F861A680F5B00A75B9A /* reduxproject */,
+				00E356ED1AD99517003FC87E /* reduxprojectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,24 +265,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		1A00E497CC6BCD7214344FF3 /* [CP] Embed Pods Frameworks */ = {
+		1CBCC68858AA7747EF25F257 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReduxProject-ReduxProjectTests/Pods-ReduxProject-ReduxProjectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-reduxproject-reduxprojectTests/Pods-reduxproject-reduxprojectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReduxProject-ReduxProjectTests/Pods-ReduxProject-ReduxProjectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-reduxproject-reduxprojectTests/Pods-reduxproject-reduxprojectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReduxProject-ReduxProjectTests/Pods-ReduxProject-ReduxProjectTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reduxproject-reduxprojectTests/Pods-reduxproject-reduxprojectTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		20A9FD2F2E78B2819E05A126 /* [CP] Check Pods Manifest.lock */ = {
+		4F7EA6DD796350417EF1FCBF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -297,14 +297,48 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReduxProject-ReduxProjectTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-reduxproject-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7368728443A950167D757334 /* [CP] Check Pods Manifest.lock */ = {
+		50E07B0986919655478F70BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reduxproject/Pods-reduxproject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reduxproject/Pods-reduxproject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reduxproject/Pods-reduxproject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8748355B6A01459C17D750D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reduxproject/Pods-reduxproject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reduxproject/Pods-reduxproject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reduxproject/Pods-reduxproject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		956F99C6D1D8A61EEAC0F539 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -319,62 +353,28 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReduxProject-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-reduxproject-reduxprojectTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D51C7C54BEF14CB44F9220EC /* [CP] Copy Pods Resources */ = {
+		BF802F84873E9465EFEF81B3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReduxProject/Pods-ReduxProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-reduxproject-reduxprojectTests/Pods-reduxproject-reduxprojectTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReduxProject/Pods-ReduxProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-reduxproject-reduxprojectTests/Pods-reduxproject-reduxprojectTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReduxProject/Pods-ReduxProject-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E4C8E5E050F81DB90E76DA9B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReduxProject-ReduxProjectTests/Pods-ReduxProject-ReduxProjectTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReduxProject-ReduxProjectTests/Pods-ReduxProject-ReduxProjectTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReduxProject-ReduxProjectTests/Pods-ReduxProject-ReduxProjectTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ECC5992B2D153EB4179FEF1E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReduxProject/Pods-ReduxProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReduxProject/Pods-ReduxProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReduxProject/Pods-ReduxProject-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reduxproject-reduxprojectTests/Pods-reduxproject-reduxprojectTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -403,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ReduxProjectTests.m in Sources */,
+				00E356F31AD99517003FC87E /* reduxprojectTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +421,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* ReduxProject */;
+			target = 13B07F861A680F5B00A75B9A /* reduxproject */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,14 +429,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DB9236D5C1F8722B48D3837 /* Pods-ReduxProject-ReduxProjectTests.debug.xcconfig */;
+			baseConfigurationReference = D1F822C60A6B39AAA990FF72 /* Pods-reduxproject-reduxprojectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ReduxProjectTests/Info.plist;
+				INFOPLIST_FILE = reduxprojectTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,17 +450,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReduxProject.app/ReduxProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reduxproject.app/reduxproject";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D82630D5740E0E777E0371C5 /* Pods-ReduxProject-ReduxProjectTests.release.xcconfig */;
+			baseConfigurationReference = AFF9407BDD087C0072690338 /* Pods-reduxproject-reduxprojectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ReduxProjectTests/Info.plist;
+				INFOPLIST_FILE = reduxprojectTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,19 +474,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReduxProject.app/ReduxProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reduxproject.app/reduxproject";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 051E8561AC7FF72EE2D2F4CE /* Pods-ReduxProject.debug.xcconfig */;
+			baseConfigurationReference = 8E8A663D81367B0C113169E0 /* Pods-reduxproject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = ReduxProject/Info.plist;
+				INFOPLIST_FILE = reduxproject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +497,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ReduxProject;
+				PRODUCT_NAME = reduxproject;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +506,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34BF7723A05A5BE5857A9D08 /* Pods-ReduxProject.release.xcconfig */;
+			baseConfigurationReference = 6AB0B449F20815063DEB1B7A /* Pods-reduxproject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = ReduxProject/Info.plist;
+				INFOPLIST_FILE = reduxproject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +522,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ReduxProject;
+				PRODUCT_NAME = reduxproject;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -654,7 +654,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReduxProjectTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reduxprojectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -663,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReduxProject" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reduxproject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -672,7 +672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReduxProject" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reduxproject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

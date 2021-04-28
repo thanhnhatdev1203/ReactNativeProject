@@ -1,7 +1,7 @@
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import React from 'react';
 import HomeStack from '../stack/homeStack';
-import WatchStack from '../stack/WatchStack';
+import SettingStack from '../stack/SettingStack';
 import {
   Button,
   SafeAreaView,
@@ -51,8 +51,8 @@ const Tabs = () => {
         }}
       />
       <Tab.Screen
-        name="Watch"
-        component={WatchStack}
+        name="Setting"
+        component={SettingStack}
         options={{
           tabBarIcon: ({focused}) => (
             <View style={styles.iconview}>

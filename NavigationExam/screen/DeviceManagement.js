@@ -8,30 +8,33 @@ import {
   ScrollView,
   TouchableOpacity,
 } from 'react-native';
+import NewDevice from './NewDevice';
+import {useNavigation} from '@react-navigation/native';
 
-class DeviceItem extends Component {
-  render() {
-    return (
-      <ScrollView style={{flex: 1}}>
-        <View style={{marginVertical: 10, marginHorizontal: 10}}>
-          <TouchableOpacity
-            onPress={() => console.log('ID : ' + this.props.item.id)}>
-            <Text style={styles.sectionTitle}>
-              {this.props.item.title} - {this.props.item.location}
-            </Text>
-          </TouchableOpacity>
-        </View>
-      </ScrollView>
-    );
-  }
-}
-function DeviceList(props) {
-  const {devices, onDeviceClist} = props;
-}
-function handleClick(device) {
-  if (onDeviceClick) {
-    onDeviceClick(device);
-  }
+function DeviceItem(props) {
+  const navigation = useNavigation();
+  return (
+    <ScrollView style={{flex: 1}}>
+      <View style={{marginVertical: 10, marginHorizontal: 10}}>
+        <TouchableOpacity
+          onPress={() => {
+            console.log('TITLE : ' + props.item.title);
+            console.log('LOCATION : ' + props.item.location);
+            console.log('IMAGE : ' + props.item.image);
+            navigation.navigate('DeviceInfo', {
+              id: props.item.id,
+              title: props.item.title,
+              location: props.item.location,
+              image: props.item.image,
+            });
+          }}>
+          <Text style={styles.sectionTitle}>
+            {props.item.title} - {props.item.location}
+          </Text>
+        </TouchableOpacity>
+      </View>
+    </ScrollView>
+  );
 }
 
 function DeviceManagement(props) {
@@ -41,7 +44,7 @@ function DeviceManagement(props) {
       <FlatList
         data={devices}
         renderItem={({item, index}) => {
-          console.log(`Item: = ${JSON.stringify(item)}`);
+          // console.log(`Item: = ${JSON.stringify(item)}`);
           return <DeviceItem item={item} index={index} />;
         }}
       />
@@ -52,7 +55,7 @@ const styles = StyleSheet.create({
   sectionContainer: {
     marginTop: 10,
     paddingHorizontal: 10,
-    height: 380,
+    height: 300,
   },
   sectionTitle: {
     fontSize: 16,

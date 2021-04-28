@@ -9,6 +9,7 @@ import {
   StyleSheet,
   TabBarIOS,
   Text,
+  TextInput,
   TouchableOpacity,
   useColorScheme,
   View,
@@ -22,24 +23,34 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-function Watch() {
+function Setting() {
   return (
     <View style={styles.sectionContainer}>
-      <Text style={styles.sectionTitle}>HELLO WATCH</Text>
+      <Text style={styles.sectionTitle}>Cài đặt</Text>
+      <Text style={{marginTop: 30}}>TÊN </Text>
+      <TextInput
+        style={{
+          backgroundColor: 'white',
+          height: 23,
+          width: 330,
+          marginVertical: 10,
+          marginHorizontal: 5,
+          borderRadius: 5,
+        }}></TextInput>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   sectionContainer: {
+    backgroundColor: '#DCDCDC',
     flex: 1,
-    backgroundColor: 'gray',
     paddingHorizontal: 24,
   },
   sectionTitle: {
     fontSize: 24,
     fontWeight: '600',
-    marginTop: 200,
+    marginTop: 50,
   },
   sectionDescription: {
     marginTop: 8,
@@ -51,4 +62,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Watch;
+export default Setting;

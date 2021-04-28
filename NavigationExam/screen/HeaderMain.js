@@ -1,17 +1,23 @@
 import React from 'react';
 import {View, Text, Image, StyleSheet, TouchableOpacity} from 'react-native';
 import NewDevice from './NewDevice';
+import {useNavigation} from '@react-navigation/native';
 
 const HeaderMain = () => {
+  const navigation = useNavigation();
   return (
     <View>
       <View style={styles.sectionContainer}>
-        <Image
-          source={require('../icon/home.png')}
-          resizeMode="contain"
-          style={[styles.icon]}
-        />
-        <TouchableOpacity onPress={() => navigator.navigate('NewDevice')}>
+        <TouchableOpacity onPress={() => navigation.navigate('Home')}>
+          <Image
+            source={require('../icon/home.png')}
+            resizeMode="contain"
+            style={[styles.icon]}
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={{marginLeft: 330}}
+          onPress={() => navigation.navigate('NewDevice')}>
           <Image
             source={require('../icon/plus.png')}
             resizeMode="contain"

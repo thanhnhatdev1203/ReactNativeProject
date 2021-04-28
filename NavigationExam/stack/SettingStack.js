@@ -2,7 +2,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import {View} from 'react-native';
 import React from 'react';
-import WatchScreen from '../screen/Watch';
+import Setting from '../screen/Setting';
 
 const Stack = createStackNavigator();
 
@@ -14,7 +14,7 @@ const WatchStack = () => {
       }}>
       <Stack.Screen
         name="WATCH"
-        component={WatchScreen}
+        component={Setting}
         options={{
           title: 'MY WATCH',
           headerStyle: {
