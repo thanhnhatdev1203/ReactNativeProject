@@ -1,4 +1,5 @@
-import {ADD_FOOD, DELETE_FOOD} from './types';
+export const ADD_FOOD = 'ADD_FOOD';
+export const DELETE_FOOD = 'DELETE_FOOD';
 
 export const addFood = food => ({
   type: ADD_FOOD,

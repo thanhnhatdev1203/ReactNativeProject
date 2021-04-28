@@ -21,11 +21,6 @@ const FoodList = () => {
 const Item = ({item, onPress, textColor}) => (
   <TouchableOpacity onPress={onPress}>
     <Text style={[styles.title, textColor]}>{item.name}</Text>
-    <Icon
-      name="delete"
-      size={36}
-      onPress={() => deleteCurrent(data.item.key)}
-    />
   </TouchableOpacity>
 );
 const renderItem = ({item}) => {
