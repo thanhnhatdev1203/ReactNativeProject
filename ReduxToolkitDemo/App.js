@@ -9,8 +9,8 @@
 import React from 'react';
 import {SafeAreaView, StatusBar} from 'react-native';
 import {Provider as ReduxProvider} from 'react-redux';
-import UserList from './UserList';
-import store from './store';
+import UserList from './app/components/UserList';
+import store from './app/components/store';
 
 const App: () => React$Node = () => {
   return (
